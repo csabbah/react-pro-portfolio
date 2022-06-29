@@ -1,13 +1,17 @@
 import React from 'react';
 
-// Update the CSS styling to each project and modify the elements
-const index = ({ projectsArr }) => {
-  const { title, description, image_url } = projectsArr;
+const index = ({ title, stack, image_url }) => {
   return (
     <div id="single-project">
-      <h1 id="project-title">{title}</h1>
-      <p id="project-description">{description}</p>
-      <p id="project-image">{image_url}</p>
+      <div id="project-details">
+        <h1 id="project-title">{title}</h1>
+        <p id="project-stack">{stack}</p>
+      </div>
+      <img
+        id="project-image"
+        src={image_url}
+        alt="Preview image of the weather dashboard website"
+      />
     </div>
   );
 };

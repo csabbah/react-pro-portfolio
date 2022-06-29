@@ -1,22 +1,42 @@
 import React from 'react';
 
-const index = () => {
+const index = ({ setActivePage, activePage }) => {
+  const handlePage = (e) => {
+    if (e.target.innerText == 'About me') {
+      setActivePage({ about: true });
+    } else if (e.target.innerText == 'Portfolio') {
+      setActivePage({ portfolio: true });
+    } else if (e.target.innerText == 'Contact') {
+      setActivePage({ contact: true });
+    } else if (e.target.innerText == 'Resume') {
+      setActivePage({ resume: true });
+    }
+    console.log(activePage);
+  };
   return (
     <ul>
       <li>
-        <a href="#">About me</a>
+        <a href="#" onClick={(e) => handlePage(e)}>
+          About me
+        </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#">Portfolio</a>
+        <a href="#" onClick={(e) => handlePage(e)}>
+          Portfolio
+        </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#">Contact</a>
+        <a href="#" onClick={(e) => handlePage(e)}>
+          Contact
+        </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#">Resume</a>
+        <a href="#" onClick={(e) => handlePage(e)}>
+          Resume
+        </a>
       </li>
     </ul>
   );
