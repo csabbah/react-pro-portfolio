@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Navigation from './Components/Navigation';
 import Portfolio from './Components/Portfolio';
 import About from './Components/About';
+import Contact from './Components/Contact';
 
 function App() {
   const [activePage, setActivePage] = useState({
@@ -27,7 +28,7 @@ function App() {
         ) : activePage.portfolio ? (
           <Portfolio />
         ) : activePage.contact ? (
-          'Contact Component'
+          <Contact />
         ) : activePage.resume ? (
           'Resume Component'
         ) : (

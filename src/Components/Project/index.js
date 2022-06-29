@@ -1,6 +1,6 @@
 import React from 'react';
 
-const index = ({ title, stack, image_url }) => {
+const Project = ({ title, stack, image_url }) => {
   return (
     <div id="single-project">
       <div id="project-details">
@@ -16,4 +16,4 @@ const index = ({ title, stack, image_url }) => {
   );
 };
 
-export default index;
+export default Project;

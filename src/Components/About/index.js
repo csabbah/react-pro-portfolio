@@ -1,6 +1,6 @@
 import React from 'react';
 
-const index = () => {
+const About = () => {
   return (
     <div id="about">
       <h1 id="main-section-header">About me</h1>
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default About;

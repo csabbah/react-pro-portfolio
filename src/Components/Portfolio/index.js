@@ -1,9 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
-const index = () => {
-  // Update the below object to contain multiple real projects
-  // For now, add the same image for testing and update the gallery CSS sstyling
+const Portfolio = () => {
   const project = [
     {
       title: 'Weather Dashboard',
@@ -61,4 +59,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Portfolio;
