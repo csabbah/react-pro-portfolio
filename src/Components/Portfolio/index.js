@@ -33,11 +33,6 @@ const Portfolio = () => {
       stack: 'MVC',
       image_url: 'https://i.imgur.com/ASmFJo8.png',
     },
-    {
-      title: 'Petters',
-      stack: 'MVC',
-      image_url: 'https://i.imgur.com/ASmFJo8.png',
-    },
   ];
 
   return (
