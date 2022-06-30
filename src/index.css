@@ -30,6 +30,7 @@ h4,
 h5,
 textarea,
 p,
+a,
 input,
 input::placeholder,
 textarea::placeholder {
@@ -149,9 +150,6 @@ nav li a {
 }
 
 /* ------ ------ ------ Portfolio */
-#portfolio {
-}
-
 #portfolio-wrapper {
   position: relative;
   left: -5px;
@@ -159,20 +157,28 @@ nav li a {
   flex-wrap: wrap;
 }
 
+#project-outter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 #single-project {
-  cursor: pointer;
   position: relative;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 #project-details {
   opacity: 0;
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  height: 96%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   transition: 0.1s all ease-in-out;
 }
 
@@ -186,7 +192,6 @@ nav li a {
   position: relative;
   top: 15px;
   left: 15px;
-  color: white;
 }
 #project-title {
   font-size: 22px;
@@ -198,7 +203,14 @@ nav li a {
 
 #project-image {
   width: 200px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#project-links {
+  display: flex;
+  flex-direction: column;
+  text-indent: 10px;
+  margin-bottom: 20px;
 }
 
 /* ------------- Contact */
