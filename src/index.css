@@ -357,8 +357,6 @@ nav li a {
 
 /* ------ ------ ------ Portfolio */
 #portfolio-wrapper {
-  position: relative;
-  left: -5px;
   display: flex;
   flex-wrap: wrap;
 }
