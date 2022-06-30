@@ -133,6 +133,21 @@ nav li a {
   opacity: 1;
 }
 
+#nav-stack {
+  display: none;
+  width: 50px;
+  filter: invert(1);
+}
+
+@media (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+
+  #nav-stack {
+    display: flex;
+  }
+}
 /* ------ ------ ------ Section - main wrapper*/
 #main-wrapper {
   margin-top: 125px;
