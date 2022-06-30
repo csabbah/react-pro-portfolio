@@ -108,7 +108,7 @@ nav {
   z-index: 100;
 }
 
-nav ul {
+#desktop-nav {
   list-style: none;
   display: flex;
 }
@@ -125,6 +125,7 @@ nav li a {
 .navItem {
   opacity: 0.55;
 }
+
 .navItem:hover {
   opacity: 0.8;
 }
@@ -133,19 +134,84 @@ nav li a {
   opacity: 1;
 }
 
-#nav-stack {
+.nav-stack {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 2px;
+  position: absolute;
+  right: 20px;
+  top: 12.5px;
+  cursor: pointer;
   display: none;
-  width: 50px;
-  filter: invert(1);
+  width: 55px;
+  transition: 0.4s all ease-in-out;
 }
 
-@media (max-width: 800px) {
-  nav ul {
+.nav-stack.active {
+  right: 175px;
+  transition: 0.4s all ease-in-out;
+}
+
+.mobile-nav {
+  width: 160px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -160px;
+  display: none;
+  list-style: none;
+  transition: 0.4s all ease-in-out;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.mobile-nav.active {
+  list-style: none;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: 0.4s all ease-in-out;
+}
+
+.mobile-nav li:first-child {
+  margin-top: 35px;
+}
+
+.mobile-nav li {
+  font-size: 23px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 35px;
+}
+
+@media (max-width: 700px) {
+  .mobile-nav {
+    display: unset;
+  }
+
+  #desktop-nav,
+  #header-logo {
     display: none;
   }
 
-  #nav-stack {
+  .nav-stack {
     display: flex;
+  }
+
+  nav {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background-color: transparent;
+  }
+
+  #main-wrapper {
+    margin-top: 50px !important;
+    margin-left: 15px;
   }
 }
 /* ------ ------ ------ Section - main wrapper*/
