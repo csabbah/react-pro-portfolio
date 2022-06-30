@@ -15,25 +15,41 @@ const Navigation = ({ setActivePage, activePage }) => {
   return (
     <ul>
       <li>
-        <a href="#" onClick={(e) => handlePage(e)}>
+        <a
+          className={`navItem ${activePage.about ? 'active' : ''}`}
+          href="#"
+          onClick={(e) => handlePage(e)}
+        >
           About me
         </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#" onClick={(e) => handlePage(e)}>
+        <a
+          className={`navItem ${activePage.portfolio ? 'active' : ''}`}
+          href="#"
+          onClick={(e) => handlePage(e)}
+        >
           Portfolio
         </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#" onClick={(e) => handlePage(e)}>
+        <a
+          className={`navItem ${activePage.contact ? 'active' : ''}`}
+          href="#"
+          onClick={(e) => handlePage(e)}
+        >
           Contact
         </a>
       </li>
       <p>/</p>
       <li>
-        <a href="#" onClick={(e) => handlePage(e)}>
+        <a
+          className={`navItem ${activePage.resume ? 'active' : ''}`}
+          href="#"
+          onClick={(e) => handlePage(e)}
+        >
           Resume
         </a>
       </li>

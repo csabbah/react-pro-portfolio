@@ -21,7 +21,7 @@ const Resume = () => {
           <li>jQuery and jQueryUI</li>
         </ul>
       </div>
-      <div id="Dev-tools">
+      <div id="dev-tools">
         <h1>Dev Tools Proficiencies</h1>
         <ul>
           <li>Git</li>
