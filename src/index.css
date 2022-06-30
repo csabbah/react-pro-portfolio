@@ -73,10 +73,16 @@ nav {
 }
 
 #main-section-header {
-  padding-bottom: 25px;
   font-size: 30px;
   letter-spacing: 2px;
 }
+
+#main-section-hr {
+  width: 300px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
 /* ------ ------ ------ Nav - Header  */
 #header-logo {
   user-select: none;
