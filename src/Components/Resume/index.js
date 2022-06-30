@@ -9,6 +9,20 @@ const Resume = () => {
         Download my Resume here
       </a>
       <div id="resume-wrapper">
+        <div id="backend">
+          <h1>Backend Proficiencies</h1>
+          <ul>
+            <li>Express</li>
+            <li>Heroku</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>SQLite</li>
+            <li>IndexedDB</li>
+            <li>LocalStorage</li>
+            <li>Service Worker</li>
+            <li>PWA, OOP, MVC & ORM dev</li>
+          </ul>
+        </div>
         <div id="frontend">
           <h1>Frontend Proficiencies</h1>
           <ul>
@@ -22,22 +36,8 @@ const Resume = () => {
             <li>jQuery and jQueryUI</li>
           </ul>
         </div>
-        <div id="backend">
-          <h1>Backend Proficiencies</h1>
-          <ul>
-            <li>Express</li>
-            <li>Heroku</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>SQLite</li>
-            <li>IndexedDB</li>
-            <li>LocalStorage</li>
-            <li>Service Worker</li>
-            <li>PWA, OOP, MVC and ORM development</li>
-          </ul>
-        </div>
         <div id="dev-tools">
-          <h1>Dev Tools Proficiencies</h1>
+          <h1>Dev Tool Proficiencies</h1>
           <ul>
             <li>Git</li>
             <li>npm</li>
