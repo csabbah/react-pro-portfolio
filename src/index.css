@@ -189,7 +189,7 @@ nav li a {
   margin-bottom: 35px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .mobile-nav {
     display: unset;
   }
