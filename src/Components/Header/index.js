@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ setActivePage }) => {
   return (
     <>
-      <h1>Carlos Sabbah</h1>
+      <h1 onClick={() => setActivePage({ about: true })} id="header-logo">
+        Carlos Sabbah
+      </h1>
     </>
   );
 };
