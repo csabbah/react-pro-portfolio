@@ -462,6 +462,7 @@ nav p {
   position: relative;
   top: 15px;
   left: 15px;
+  color: #1d3557;
 }
 #project-title {
   font-size: 22px;
@@ -506,7 +507,7 @@ nav p {
 
 form button {
   font-size: 18px;
-  color: black;
+  color: #1d3557;
   background-color: #a8dadc;
   border: none;
   cursor: pointer;
