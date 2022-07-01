@@ -21,7 +21,6 @@ function App() {
     <main>
       <nav>
         <Header activePage={activePage} setActivePage={setActivePage} />
-        <Navigation activePage={activePage} setActivePage={setActivePage} />
       </nav>
       <section id="main-wrapper">
         {activePage.about ? (
