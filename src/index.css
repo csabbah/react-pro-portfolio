@@ -541,6 +541,10 @@ form button:active {
   padding-left: 20px;
   border-radius: 5px;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
 
 .form-inner-container textarea {
   padding-top: 10px;
