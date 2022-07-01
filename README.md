@@ -41,7 +41,7 @@ npm start
 
 ## Links
 
-[Link to live application](google.com)
+[Link to live application](https://csabbah.github.io/react-pro-portfolio/)
 
 ## Built With
 
