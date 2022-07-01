@@ -15,7 +15,7 @@
 
 ## Description
 
-This is a...
+This application was built using the React framework with focus on single page application (SPA) development. There are 4 pages that cover About me, my Portfolio, a Contact section as well as a Resume page with a link to download my Resume and a list of my proficiencies. The application is fully responsive and includes multiple JSX / JavaScript functionalities (primarily in the Contact page) to ensure professional grade validation and user experience.
 
 ## Installation
 
@@ -33,32 +33,23 @@ npm install
 
 ## Local-Usage
 
-Once all dependencies are installed (via 'npm install'), you can start the server by typing in terminal:
+Once all dependencies are installed, you can view the application in your local browser by typing in terminal:
 
 ```
 npm start
 ```
 
-From there, you are ready to use the application!
-
 ## Links
 
-[Link to live application](https://fullpwa-budget-tracker.herokuapp.com/)
+[Link to live application](google.com)
 
 ## Built With
 
+- React
 - Node.js
-- Express.js
-- IndexedDB
-- Service Worker
-- NoSQL (MongoDB)
-- MongoDB Atlas
-- Heroku
+- JSX / JavaScript
 - HTML
 - CSS
-- JavaScript
-- Bootstrap
-- Font-awesome
 
 ## Questions
 
