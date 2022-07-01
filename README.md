@@ -63,3 +63,6 @@ If you have questions about this application or general inquiry, please reach ou
 ## License
 
 This project is covered under the MIT License.
+
+<img width="1710" alt="Preview_image" src="https://user-images.githubusercontent.com/91699101/176946940-e5929187-9c40-4f7d-b6e1-61bb51b829a7.png">
+
