@@ -301,6 +301,10 @@ nav li a {
   #project-desc {
     text-indent: 24px;
   }
+
+  #project-details {
+    pointer-events: none;
+  }
 }
 
 @media (max-width: 551px) {
@@ -570,6 +574,14 @@ form button:active {
   list-style: circle;
   text-indent: 10px;
   margin-left: 22.5px;
+}
+
+#resume-link {
+  color: rgb(0, 115, 255);
+}
+
+#resume-link:hover {
+  color: rgb(0, 74, 165);
 }
 
 /* ------ ------ ------ Footer  */
