@@ -5,7 +5,7 @@ const Portfolio = () => {
   const project = [
     {
       title: 'Petters',
-      stack: 'Full stack - MVC',
+      stack: 'MVC',
       image_url: 'https://imgpile.com/images/RK0ExF.png',
       image_alt: 'Preview image of the MVC Petters Social website',
       github_link: 'https://github.com/csabbah/interactive-proj2-petters',
@@ -37,7 +37,7 @@ const Portfolio = () => {
       deployed_link: 'https://full-stack-note-taker.herokuapp.com/',
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Weather Dash',
       stack: 'API - JS',
       image_url: 'https://i.imgur.com/ASmFJo8.png',
       image_alt: 'Preview image of the Budget Tracker website',
@@ -46,7 +46,7 @@ const Portfolio = () => {
     },
     {
       title: 'TaskMaster',
-      stack: 'jQuery & jQueryui',
+      stack: 'jQuery/jQueryui',
       image_url: 'https://i.imgur.com/4PYAPJW.png',
       image_alt: 'Preview image of the Taskmaster website',
       github_link: 'https://github.com/csabbah/taskmaster-pro',

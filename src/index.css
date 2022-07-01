@@ -204,6 +204,9 @@ nav li a {
   font-size: 20px;
 }
 
+#project-desc {
+  display: none;
+}
 @media (max-width: 800px) {
   .mobile-nav {
     display: unset;
@@ -233,9 +236,7 @@ nav li a {
     margin-left: 25px;
     margin-right: 20px;
   }
-  #project-links {
-    text-indent: 23px !important;
-  }
+
   #portfolio-wrapper {
     position: relative;
     left: 0 !important;
@@ -288,11 +289,50 @@ nav li a {
   #main-section-hr {
     width: 270px;
   }
+
+  #project-desc {
+    display: unset;
+  }
+  #project-bottom-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #project-links,
+  #project-desc {
+    text-indent: 24px;
+  }
 }
 
 @media (max-width: 551px) {
+  #project-outter-wrapper {
+    align-items: center !important;
+  }
+
+  #project-links,
+  #project-desc {
+    text-indent: 0 !important;
+  }
+  #project-links,
+  #project-desc {
+    text-indent: 24px;
+  }
   #project-image {
     width: 80vw !important;
+  }
+
+  #project-bottom-section {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #project-bottom-section p,
+  #project-bottom-section a {
+    font-size: 18px;
+    letter-spacing: 0.1px;
   }
 }
 /* ------ ------ ------ Section - main wrapper*/
@@ -426,8 +466,7 @@ nav li a {
 #project-links {
   display: flex;
   flex-direction: column;
-  text-indent: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #project-links a {
