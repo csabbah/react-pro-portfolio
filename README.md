@@ -15,7 +15,7 @@
 
 ## Description
 
-This application was built using the React framework with focus on single page application (SPA) development. There are 4 pages that cover About me, my Portfolio, a Contact section as well as a Resume page with a link to download my Resume and a list of my proficiencies. The application is fully responsive and includes multiple JSX / JavaScript functionalities (primarily in the Contact page) to ensure professional grade validation and user experience.
+This application was built using the React framework with focus on single page application (SPA) development. There are 4 pages that cover About me, my Portfolio, a Contact section as well as a Resume page with a link to download my resume and a list of my proficiencies. The application is fully responsive and includes multiple JSX / JavaScript functionalities (primarily in the Contact page) to ensure professional-level validation and user experience.
 
 ## Installation
 
