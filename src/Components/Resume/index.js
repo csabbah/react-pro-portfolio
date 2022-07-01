@@ -15,12 +15,12 @@ const Resume = () => {
             <li>Express</li>
             <li>Heroku</li>
             <li>MongoDB</li>
-            <li>MySQL</li>
             <li>SQLite</li>
+            <li>MySQL / NoSQL</li>
             <li>IndexedDB</li>
             <li>LocalStorage</li>
             <li>Service Worker</li>
-            <li>PWA, OOP, MVC & ORM dev</li>
+            <li>PWA, OOP, MVC & ORM</li>
           </ul>
         </div>
         <div id="frontend">
@@ -33,7 +33,7 @@ const Resume = () => {
             <li>Bootstrap</li>
             <li>Tailwind CSS</li>
             <li>DaisyUi</li>
-            <li>jQuery and jQueryUI</li>
+            <li>jQuery & jQueryUI</li>
           </ul>
         </div>
         <div id="dev-tools">

@@ -235,8 +235,8 @@ nav li a {
   }
 
   #single-project {
-    margin-left: 25px;
-    margin-right: 20px;
+    margin-right: 0 !important;
+    margin: 0 15px !important;
   }
 
   #portfolio-wrapper {
@@ -262,14 +262,11 @@ nav li a {
     text-align: left;
   }
 
-  #resume-wrapper div {
-    margin-right: 0 !important;
-  }
-
   #frontend,
   #backend,
   #dev-tools {
     margin: 0 15px;
+    margin-right: 15px !important;
   }
 
   #frontend h1,
