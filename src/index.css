@@ -274,6 +274,14 @@ nav li a {
   #dev-tools li {
     font-size: 18px;
   }
+
+  #main-section-header {
+    font-size: 28px;
+  }
+
+  #main-section-hr {
+    width: 270px;
+  }
 }
 
 @media (max-width: 551px) {
