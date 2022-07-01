@@ -69,7 +69,7 @@ const Navigation = ({ setActivePage, activePage }) => {
       <img
         onClick={() => setActiveNav(!activeNav)}
         className={`nav-stack ${activeNav ? 'active' : ''}`}
-        src="https://imgpile.com/images/RVqHWF.png"
+        src="https://i.postimg.cc/zfbjmMvj/588a64e0d06f6719692a2d10.png"
         alt="Navigation Icon"
       ></img>
       <ul className={`mobile-nav ${activeNav ? 'active' : ''}`}>

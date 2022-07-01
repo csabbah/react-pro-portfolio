@@ -25,17 +25,17 @@ const Contact = () => {
     ) {
       statusEl.innerText =
         'Message sent failed, please fill in all required fields.';
-      statusEl.style.color = 'red';
+      statusEl.style.color = '#d16262';
     } else {
       if (validateEmail(from_email)) {
         statusEl.innerText = 'Message sent successfully.';
-        statusEl.style.color = 'green';
+        statusEl.style.color = '#1d3557';
         setTimeout(() => {
           statusEl.innerText = '';
         }, 1500);
       } else {
         statusEl.innerText = 'Invalid email format, please update.';
-        statusEl.style.color = 'red';
+        statusEl.style.color = '#d16262';
       }
     }
     console.log(formData);
@@ -44,6 +44,7 @@ const Contact = () => {
   // Capture the form data as it is being inputted
   const storeData = (e) => {
     document.getElementById('status').textContent = '';
+    document.getElementById('email-status').textContent = '';
 
     if (e.target.name == 'from_email') {
       const emailStatusEl = document.getElementById('email-status');
@@ -53,10 +54,10 @@ const Contact = () => {
       } else {
         if (validateEmail(e.target.value)) {
           emailStatusEl.innerText = 'Valid Email.';
-          emailStatusEl.style.color = 'green';
+          emailStatusEl.style.color = '#1d3557';
         } else {
           emailStatusEl.innerText = 'Invalid email format, please update.';
-          emailStatusEl.style.color = 'red';
+          emailStatusEl.style.color = '#d16262';
         }
       }
     }
