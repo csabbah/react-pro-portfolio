@@ -494,7 +494,7 @@ nav li a {
 }
 
 form button {
-  font-size: 18;
+  font-size: 18px;
   background-color: rgba(227, 227, 227, 0.7);
   border: none;
   cursor: pointer;
