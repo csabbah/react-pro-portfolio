@@ -421,9 +421,11 @@ nav p {
 }
 
 /* ------ ------ ------ Portfolio */
+
 #portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 #project-outter-wrapper {
@@ -473,6 +475,10 @@ nav p {
 #project-image {
   width: 200px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.recent {
+  width: 300px !important;
 }
 
 #project-links {

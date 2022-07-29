@@ -4,6 +4,15 @@ import Project from '../Project';
 const Portfolio = () => {
   const project = [
     {
+      nameOfClass: 'recent',
+      title: 'Locum',
+      stack: 'MERN',
+      image_url: 'https://imgpile.com/images/RpTFz8.png',
+      image_alt: 'Preview image of the Locum website',
+      github_link: 'https://github.com/SCScbc-Projects2022/project-three',
+      deployed_link: 'https://locum-staffing.herokuapp.com/',
+    },
+    {
       title: 'Petters',
       stack: 'MVC',
       image_url: 'https://imgpile.com/images/RK0ExF.png',
@@ -69,6 +78,7 @@ const Portfolio = () => {
               image_alt={item.image_alt}
               github_link={item.github_link}
               deployed_link={item.deployed_link}
+              nameOfClass={item.nameOfClass}
             />
           );
         })}

@@ -7,6 +7,7 @@ const Project = ({
   image_alt,
   github_link,
   deployed_link,
+  nameOfClass,
 }) => {
   return (
     <div id="project-outter-wrapper">
@@ -15,7 +16,12 @@ const Project = ({
           <h1 id="project-title">{title}</h1>
           <p id="project-stack">{stack}</p>
         </div>
-        <img id="project-image" src={image_url} alt={image_alt} />
+        <img
+          className={nameOfClass}
+          id="project-image"
+          src={image_url}
+          alt={image_alt}
+        />
       </div>
       <div id="project-bottom-section">
         <div id="project-links">
