@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-pro-portfolio/static/css/main.4f51b06d.css",
-    "main.js": "/react-pro-portfolio/static/js/main.d5723c88.js",
+    "main.css": "/react-pro-portfolio/static/css/main.35c04ffe.css",
+    "main.js": "/react-pro-portfolio/static/js/main.03ae5102.js",
     "static/js/787.dab475a8.chunk.js": "/react-pro-portfolio/static/js/787.dab475a8.chunk.js",
     "static/media/Poppins-Medium.ttf": "/react-pro-portfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-Bold.ttf": "/react-pro-portfolio/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/react-pro-portfolio/index.html",
-    "main.4f51b06d.css.map": "/react-pro-portfolio/static/css/main.4f51b06d.css.map",
-    "main.d5723c88.js.map": "/react-pro-portfolio/static/js/main.d5723c88.js.map",
+    "main.35c04ffe.css.map": "/react-pro-portfolio/static/css/main.35c04ffe.css.map",
+    "main.03ae5102.js.map": "/react-pro-portfolio/static/js/main.03ae5102.js.map",
     "787.dab475a8.chunk.js.map": "/react-pro-portfolio/static/js/787.dab475a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f51b06d.css",
-    "static/js/main.d5723c88.js"
+    "static/css/main.35c04ffe.css",
+    "static/js/main.03ae5102.js"
   ]
 }
