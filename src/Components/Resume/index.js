@@ -7,7 +7,7 @@ const Resume = () => {
       <hr id="main-section-hr" />
       <a
         id="resume-link"
-        href={`./Assets/Resume/Carlos'Resume(2022_may).pdf`}
+        href={`./Assets/Resume/Carlos'Resume_22.pdf`}
         download
       >
         Download my Resume here
