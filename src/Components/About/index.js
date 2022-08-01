@@ -20,14 +20,14 @@ const About = () => {
             learn more.
             <br />
             <br />
-            Certified in advanced Python (API, automation, web scraping & data
-            analysis), HTML, CSS, MySQL (sqlite2), JavaScript (Node.js,
-            Express.js, Sequelize, Heroku, Sessions, Handlebars, working with
-            API (POST, GET, DELETE & PUT), jQuery, React.js, Bootstrap,
-            localStorage & Tailwind/DaisyUi) & experienced in different
-            development structures such as TDD, OOP, ORM & MVC. Lastly, an
-            expert in all adobe programs including, Premiere, After effects,
-            Illustrator, Photoshop & XD.
+            Advanced Python (API, automation, web scraping & data analysis).
+            HTML, CSS, MySQL (sqlite2), NoSQL (MongoDB), Apollo Client, GraphQL,
+            Axios, Heroku, Mongo Atlas, JavaScript (MERN stack, Node.js,
+            Express.js, API (CRUD), Sequelize, Mongoose, jQuery, React.js,
+            Bootstrap, localStorage, indexedDB & Tailwind/DaisyUi) & experienced
+            in different development structures like PWA, TDD, OOP, ORM & MVC.
+            Expert in all adobe programs including, Premiere, After effects,
+            Illustrator & Photoshop.
           </p>
         </div>
       </div>
