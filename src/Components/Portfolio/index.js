@@ -4,7 +4,7 @@ import Project from '../Project';
 const Portfolio = () => {
   const project = [
     {
-      nameOfClass: 'recent',
+      // nameOfClass: 'recent',
       title: 'Locum',
       stack: 'MERN',
       image_url: 'https://imgpile.com/images/RpTFz8.png',

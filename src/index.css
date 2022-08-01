@@ -443,8 +443,9 @@ nav p {
 #project-details {
   opacity: 0;
   position: absolute;
+  border-radius: 5px;
   width: 100%;
-  height: 96%;
+  height: 96.5%;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -473,6 +474,7 @@ nav p {
 
 #project-image {
   width: 200px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 

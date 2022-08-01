@@ -10,7 +10,7 @@ const Resume = () => {
         href={`./Assets/Resume/Carlos'Resume_22.pdf`}
         download
       >
-        Download my Resume here
+        Download my Resume
       </a>
       <div id="resume-wrapper">
         <div id="backend">
@@ -18,13 +18,15 @@ const Resume = () => {
           <ul>
             <li>Express</li>
             <li>Heroku</li>
+            <li>Graphql</li>
             <li>MongoDB</li>
             <li>SQLite</li>
             <li>MySQL / NoSQL</li>
             <li>IndexedDB</li>
             <li>LocalStorage</li>
             <li>Service Worker</li>
-            <li>PWA, OOP, MVC & ORM</li>
+            <li>PWA, OOP, TTD & ORM</li>
+            <li>MVC and MERN Stack</li>
           </ul>
         </div>
         <div id="frontend">
@@ -47,6 +49,8 @@ const Resume = () => {
             <li>npm</li>
             <li>Jest</li>
             <li>Webpack</li>
+            <li>Insomnia</li>
+            <li>Postman</li>
           </ul>
         </div>
       </div>
