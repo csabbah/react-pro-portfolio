@@ -48,6 +48,9 @@ const Resume = () => {
             <li>Git</li>
             <li>npm</li>
             <li>Jest</li>
+            <li>Github</li>
+            <li>vscode</li>
+            <li>pycharm</li>
             <li>Webpack</li>
             <li>Insomnia</li>
             <li>Postman</li>
