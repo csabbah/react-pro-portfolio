@@ -5,6 +5,15 @@ const Portfolio = () => {
   const project = [
     {
       // nameOfClass: 'recent',
+      title: 'Realtime chat app',
+      stack: 'Socket.io',
+      image_url: 'https://imgpile.com/images/T1oH2u.png',
+      image_alt: 'Preview image of Realtime chat app website',
+      github_link: 'https://github.com/csabbah/realtime-chat-app',
+      deployed_link: 'https://pacific-journey-86353.herokuapp.com/',
+    },
+    {
+      // nameOfClass: 'recent',
       title: 'Locum',
       stack: 'MERN',
       image_url: 'https://imgpile.com/images/RpTFz8.png',
