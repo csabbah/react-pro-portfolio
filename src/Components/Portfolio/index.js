@@ -5,6 +5,15 @@ const Portfolio = () => {
   const project = [
     {
       // nameOfClass: 'recent',
+      title: 'Pizza Shack',
+      stack: 'Next.js, Mongo, React',
+      image_url: 'https://imgpile.com/images/TcrmbX.png',
+      image_alt: 'Preview image of the Pizza Shack website',
+      github_link: 'https://github.com/csabbah/nextjs-pizza-shack',
+      deployed_link: 'https://nextjs-pizza-shack.vercel.app/',
+    },
+    {
+      // nameOfClass: 'recent',
       title: 'Realtime chat app',
       stack: 'Socket.io',
       image_url: 'https://imagizer.imageshack.com/img922/7127/CoyWMl.png',
