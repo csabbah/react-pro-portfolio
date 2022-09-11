@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       // nameOfClass: 'recent',
       title: 'Pizza Shack',
-      stack: 'Next.js, Mongo, React',
+      stack: 'Next.js',
       image_url: 'https://imgpile.com/images/TcrmbX.png',
       image_alt: 'Preview image of the Pizza Shack website',
       github_link: 'https://github.com/csabbah/nextjs-pizza-shack',
