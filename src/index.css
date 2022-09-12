@@ -161,6 +161,7 @@ nav p {
   border-radius: 5px;
   padding: 0 2px;
   position: absolute;
+  z-index: 9999;
   right: 20px;
   top: 18px;
   cursor: pointer;
@@ -170,29 +171,39 @@ nav p {
 }
 
 .nav-stack.active {
-  right: 185px;
+  right: 220px;
   transition: all 0.5s cubic-bezier(0.65, 0, 0.33, 0.99);
 }
 
 .mobile-nav {
-  width: 170px;
+  width: 200px;
   height: 100vh;
   position: absolute;
   top: 0;
   right: -170px;
   display: none;
+  opacity: 0;
   list-style: none;
   transition: all 0.5s cubic-bezier(0.65, 0, 0.33, 0.99);
+  border-left: 2px solid rgba(0, 0, 0, 0.15);
 }
 
 .mobile-nav.active {
   list-style: none;
   height: 100vh;
   position: absolute;
+  opacity: 1;
   top: 0;
   right: 0;
-  background-color: #d16262;
+  z-index: 2;
+  background-color: #d16262eb;
   transition: all 0.5s cubic-bezier(0.65, 0, 0.33, 0.99);
+  border-left: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .mobile-nav li:first-child {
@@ -201,8 +212,8 @@ nav p {
 
 .mobile-nav li {
   font-size: 23px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-  margin-bottom: 35px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 25px;
 }
 
 #nav-logo {
