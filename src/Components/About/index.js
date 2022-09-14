@@ -21,13 +21,18 @@ const About = () => {
             <br />
             <br />
             Advanced Python (API, automation, web scraping & data analysis).
+            <br />
+            <br />
             HTML, CSS, MySQL (sqlite2), NoSQL (MongoDB), Apollo Client, GraphQL,
-            Axios, Heroku, Mongo Atlas, JavaScript (MERN stack, Next.js, Redux,
-            Node.js, Express.js, API (CRUD), Sequelize, Mongoose, jQuery,
-            React.js, Bootstrap, localStorage, indexedDB & Tailwind/DaisyUi) &
-            experienced in different development structures like PWA, TDD, OOP,
-            ORM & MVC. Expert in all adobe programs including, Premiere, After
-            effects, Illustrator & Photoshop.
+            Axios, Heroku, Vercel, Mongo Atlas, JavaScript (Node.js, Next.js,
+            React.js, Redux, Express.js, Sequelize, Mongoose, jQuery, Bootstrap,
+            localStorage, indexedDB & Tailwind/DaisyUi) & experienced in
+            different development structures like MERN, MVC, PWA, TDD, OOP &
+            ORM.
+            <br />
+            <br />
+            Expert in all adobe programs including, Premiere, After effects,
+            Illustrator & Photoshop.
           </p>
         </div>
       </div>
