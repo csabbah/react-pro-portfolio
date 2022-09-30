@@ -14,7 +14,16 @@ const Portfolio = () => {
     },
     {
       // nameOfClass: 'recent',
-      title: 'Realtime chat app',
+      title: 'Real Estate',
+      stack: 'Next.js',
+      image_url: 'https://imgpile.com/images/Tk53Io.png',
+      image_alt: 'Preview image of the Real Estate website',
+      github_link: 'https://github.com/csabbah/nextjs-realestate',
+      deployed_link: 'https://nextjs-realestate-jgo6.vercel.app/',
+    },
+    {
+      // nameOfClass: 'recent',
+      title: 'Realtime chat',
       stack: 'Socket.io',
       image_url: 'https://imagizer.imageshack.com/img922/7127/CoyWMl.png',
       image_alt: 'Preview image of Realtime chat app website',
@@ -73,7 +82,7 @@ const Portfolio = () => {
     },
     {
       title: 'TaskMaster',
-      stack: 'jQuery/jQueryui',
+      stack: 'jQuery',
       image_url: 'https://i.imgur.com/4PYAPJW.png',
       image_alt: 'Preview image of the Taskmaster website',
       github_link: 'https://github.com/csabbah/taskmaster-pro',
