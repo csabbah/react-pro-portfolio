@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Resume = () => {
   return (
@@ -16,17 +16,24 @@ const Resume = () => {
         <div id="backend">
           <h1>Backend Proficiencies</h1>
           <ul>
+            <li>Node</li>
             <li>Express</li>
+            <li>Hostinger</li>
+            <li>Vercel</li>
             <li>Heroku</li>
-            <li>Graphql</li>
-            <li>MongoDB</li>
-            <li>SQLite</li>
+            <li>VPS</li>
+            <br></br>
             <li>MySQL / NoSQL</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>SQLite</li>
+            <li>GraphQl</li>
+            <br></br>
+            <li>Redux</li>
             <li>IndexedDB</li>
             <li>LocalStorage</li>
-            <li>Service Worker</li>
             <li>PWA, OOP, TTD & ORM</li>
-            <li>MVC and MERN Stack</li>
+            <li>Python</li>
           </ul>
         </div>
         <div id="frontend">
@@ -35,23 +42,35 @@ const Resume = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
+            <br></br>
             <li>React</li>
             <li>Bootstrap</li>
             <li>Tailwind CSS</li>
             <li>DaisyUi</li>
-            <li>jQuery & jQueryUI</li>
+            <li>jQuery</li>
+            <li>jQueryUi</li>
+            <br></br>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>After Effects</li>
+            <li>Premiere</li>
           </ul>
         </div>
         <div id="dev-tools">
           <h1>Dev Tool Proficiencies</h1>
           <ul>
             <li>Git</li>
-            <li>npm</li>
+            <li>Source control</li>
+            <li>Npm</li>
             <li>Jest</li>
+            <br></br>
             <li>Github</li>
-            <li>vscode</li>
-            <li>pycharm</li>
+            <li>Vscode</li>
+            <br></br>
+            <li>Pycharm</li>
             <li>Webpack</li>
+            <br></br>
             <li>Insomnia</li>
             <li>Postman</li>
           </ul>
