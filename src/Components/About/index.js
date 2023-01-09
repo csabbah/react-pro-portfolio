@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
@@ -12,10 +12,10 @@ const About = () => {
           alt="Portrait of me (Carlos)"
         />
         <div id="about-inner-wrapper">
-          <h1>Hi, i'm Carlos!</h1>
+          <h1>Hi, I'm Carlos!</h1>
           <p>
-            I'm an aspiring Full stack developer with over 7 years of experience
-            in marketing and content creation. I have unique eye for creativity,
+            I am Full stack developer with over 7 years of experience in
+            marketing and content creation. I have a unique eye for creativity,
             love to solve critical problems and a keen to always improve and
             learn more.
             <br />
@@ -24,10 +24,10 @@ const About = () => {
             <br />
             <br />
             HTML, CSS, MySQL (sqlite2), NoSQL (MongoDB), Apollo Client, GraphQL,
-            Axios, Heroku, Vercel, Mongo Atlas, JavaScript (Node.js, Next.js,
-            React.js, Redux, Express.js, Sequelize, Mongoose, jQuery, Bootstrap,
-            localStorage, indexedDB & Tailwind/DaisyUi) & experienced in
-            different development structures like MERN, MVC, PWA, TDD, OOP &
+            Axios, Heroku, Vercel, Hostinger, REST API, VPS, Mongo Atlas,
+            TypeScript, JavaScript (Node.js, Next.js, React.js, Redux,
+            Express.js, Sequelize, Mongoose, jQuery, Bootstrap, localStorage,
+            indexedDB, Tailwind & DaisyUi) & MERN, MVC, PWA, TDD, OOP & ORM.
             ORM.
             <br />
             <br />

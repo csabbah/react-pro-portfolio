@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Project = ({
   title,
@@ -26,10 +26,10 @@ const Project = ({
       <div id="project-bottom-section">
         <div id="project-links">
           <a target="_blank" rel="noreferrer noopener" href={github_link}>
-            Github Repo
+            Github
           </a>
           <a target="_blank" rel="noreferrer noopener" href={deployed_link}>
-            Deployed Link
+            Live Link
           </a>
         </div>
         <div id="project-desc">
